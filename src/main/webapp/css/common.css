@@ -1,0 +1,106 @@
+body {
+    /* background-color: #699EFD; */
+    background-image: linear-gradient(to right, #4776E6, #8E54E9);
+}
+.alertIcon{
+    margin: 10px;
+}
+.filter-white{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+#sidebarMenu{
+    background: rgba(0,0,0,0.1);
+}
+
+.nav-pills .nav-item{
+    font-size: 1.15em !important;
+    margin-left: 0px;
+    margin-right : 0px;
+}
+
+.navbarItem{
+    font-size: 2em !important;
+    font-family : Georgia, serif;
+    margin-left : 10px;
+    margin-right: 10px;
+} 
+#navLogo{
+    font-size: 2em !important;
+    font-family : Georgia, serif;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+ .dropdown-item{
+    font-size: 1.5em !important;
+} 
+
+
+/* The side navigation menu */
+.sidebar {
+  margin-top: -52px;
+  padding: 0;
+  width: 300px;
+  background: rgba(0,0,0,0.1);
+  position: fixed;
+  height: 100% ;
+ 
+}
+
+/* Sidebar links */
+.sidebar a {
+  text-align: center;
+  vertical-align : middle;
+  display: block;
+  color: black;
+  padding: 20px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #8E54E9 !important;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #4364F7 !important;
+  color: white;
+  height: 100%;
+}
+
+#nav-link-LOGOUT{
+  background-color: #0280FA !important;
+  color: white;
+}
+div.content {
+   /* doit etre le meme size que le width du sidebar */
+  margin-top : 150px;
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+      
+    width: 33%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    font-size: 18px;
+    text-align: center;
+    float: none;
+  }
+}
+

@@ -1,0 +1,263 @@
+#projectUpdatedAlertBanner {
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    max-width: 40%;
+    z-index: 1;
+}
+
+.moveFormIcon{
+    position: relative;
+    right : 165px;
+    bottom : 10px;
+    width: 40px; 
+    height: 40px;
+}
+.navbarItem{
+    font-family : cursive;
+    font-size: 2em !important;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+#projectsToolBox{
+    margin : 10px;
+}
+.hand-sign{
+    font-size : 40px; 
+    position: absolute; 
+    left : 0; 
+    top: 0; 
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+
+#projectsToolBox button{
+    padding: 10px;
+    padding-right : 15px;
+    margin-left : 15px;
+    position : relative;
+    top : 5%;
+}
+
+#projectsToolBox i{
+    position : relative;
+    left : 10%;
+}
+
+.invalid-feedback{
+    max-width: 100%;
+    padding: .25rem .5rem;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(220,53,69,.9);
+    border-radius: .25rem;
+}
+inv-feedback-yellow{
+    max-width: 100%;
+    padding: .25rem .5rem;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #eed202 ;
+    border-radius: .25rem;
+}
+
+#projectsToolBox input{
+   /* padding: 15px; */
+    position : relative;
+    margin-left : 15px;
+    top : 15%;
+}
+
+#projectsListTable{
+    z-index : 1;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    max-width: 55%;
+    max-height: 600px;
+    display: table;
+    overflow: auto;
+}
+.hide{
+    display:none;
+}
+
+td, th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#btnCreateProject{
+    position : relative;
+    
+}
+
+thead tr:first-child:hover td {
+    background-color: #5772E2 !important;
+    border-color: transparent !important; 
+    border-top-color: transparent !important;
+}
+
+
+
+
+.input-group .form-control {
+    margin: 0px !important;
+}
+.createForm {
+  position: relative;
+  display : flex;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+  right : 5%;
+  bottom : 20%;
+  z-index : 0;
+}
+.updateForm {
+  position: relative;
+  display : flex;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: auto;
+  right : 5%;
+  bottom : 20%;
+  z-index : 0;
+}
+.updateForm .checkbox {
+  font-weight: 400;
+}
+.updateForm .form-control {
+  position: relative;
+  box-sizing: border-box;
+  display : inline-flex;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  max-width: 100%;
+}
+.updateForm .form-control:focus {
+  z-index: 2;
+}
+
+#filterTextInput {
+  font-size: 24px;
+  color: white;
+  background-color: #212529;
+  border-color: whitesmoke;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* Editing scrollbar section 
+   2 templates available : 
+   - Minimalist Grey
+   - Rounded Grey         
+   Not working on Firefox */
+/* Start of Rounded Grey */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: purple;
+  border-radius: 10px;
+}
+/* End of Rounded Grey*/
+
+
+/* Start of Minimalist Grey */
+/* width */
+/*::-webkit-scrollbar {
+  width: 10px;
+}
+
+ Track 
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+ Handle 
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+ Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}*/
+/* End of Minimalist Grey */
+
+/* ---------------------------------------------------------------------- */
+
+/* Table , coin arrondis */
+.bordered {
+    border: solid #ccc 1px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+.bordered tr:hover {
+    background: #ECECEC;    
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.bordered td, .bordered th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.bordered td:first-child, .bordered th:first-child {
+    border-left: none;
+}
+.bordered th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+.bordered th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+.bordered th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+.bordered tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 6px;
+    -webkit-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px;
+}
+.bordered tr:last-child td:last-child {
+    -moz-border-radius: 0 0 6px 0;
+    -webkit-border-radius: 0 0 6px 0;
+    border-radius: 0 0 6px 0;
+} 

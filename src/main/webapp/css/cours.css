@@ -1,0 +1,85 @@
+#cours_body{
+    margin:0;
+    
+ }
+ .message-error{
+     
+     color: #FF0000;
+     display: inline;
+ }
+
+ .cours_legend{
+    font-family:verdana, arial, sans-serif;
+    font-size:14pt;
+    font-weight:bold;
+    color:white;
+    margin:10px;
+    padding:10px 20px 10px 20px;
+    background-color:#4d83dd;
+    border-radius:4px;
+ }
+ h5{
+    display:inline-block;
+    width:200px;
+    font-family: arial, serif;
+    
+    padding:0px;
+    color : black;
+ }
+ 
+ .cours_champ{
+    outline:none;
+    border:solid 1px #4d83dd;
+    padding:10px;
+    border-radius:4px;
+    font-family:verdana, arial, sans-serif;
+    display:inline-block;
+    width:200px;
+ }
+ input[type="text"].cours_champ:focus, input[type="password"].cours_champ:focus{
+    background-color:#EEEEEE;
+ }
+ select{
+     width: 200px;
+ }
+ input[type="number"]{
+     width: 200px;
+ }
+ 
+ button.cours_champ{
+    background-color:#5c6ce4;
+    color:white;
+    padding:6px 20px 6px 20px;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    width:200px;
+    
+ }
+h4:before{
+    content:"";
+    display:block;
+    
+    height: 2px;
+    background: #fff;
+    position: relative;
+    left: 0;
+    top:15%;
+    z-index: -2;
+    
+}
+
+ 
+
+h4:after{
+    content:"";
+    display:block;
+    
+    height: 2px;
+    background: #fff;
+    position: relative;
+    
+    top:15%;
+     
+    
+}

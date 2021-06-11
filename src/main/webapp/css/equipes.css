@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 mai 2021, 16 h 54 min 50 s
+    Author     : fatim
+*/
+
+.container-body{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    margin-top: 450px;
+}
+
+.contant{
+    position: absolute;
+}
+
+.ajouterEtudiant{
+    margin-top: 60px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+.nouvelleEquipe{
+    margin-top: 30px;
+    margin-left: 100px;
+    color:white;
+}
+
+.container-form{
+
+    height: 800px;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #fff;
+    padding-top: 60px;
+}
+
+.form-select{
+    font-family: Georgia, serif;
+
+}
+
+
+
+.title-team{
+    margin-top:30px;
+    margin-bottom: 60px;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+
+#tableEquipe{
+    margin-top: 70px;
+   
+        
+}
+
+.table tbody{
+  display:block;
+  overflow:auto;
+  height:400px;
+  width:100%;
+  
+}
+
+.table thead tr{
+  display:block;
+}
+
