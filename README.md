@@ -7,3 +7,5 @@ Application web pour les enseignants leur permettant de gérer les projets de se
 5. HTML / CSS / JavaScript
 6. JQuery UI
 7. Bootstrap
+
+Lien pour le tester bientôt disponible. (Juin 2021)
